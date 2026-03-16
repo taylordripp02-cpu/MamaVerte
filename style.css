@@ -121,6 +121,7 @@ header p {
 
 .input-group input {
     width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in the 100% width */
     padding: 12px 16px;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,0.8);
